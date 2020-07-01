@@ -13,10 +13,10 @@ public class trial
     public static void main(String [] args)
     {
         // email ID of Recipient.
-        String recipient = "harikajrox@gmail.com";
+        String recipient = "patraanannya@gmail.com";
 
         // email ID of  Sender.
-        String sender = "harjanu@gmail.com";
+        String sender = "aaniee09@gmail.com";
 
         // using host as localhost
         String host = "10.45.100.43";

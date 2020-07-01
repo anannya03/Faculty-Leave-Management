@@ -8,6 +8,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+//This is for making the UI Window
+
 public class UIWindow extends JFrame {
     JLabel l;
     JLabel name_message, el_message, cl_message;
@@ -60,7 +62,7 @@ public class UIWindow extends JFrame {
 
         encashment_form = new JButton("APPLY FOR ENCASHMENT");
         encashment_form.addActionListener(new ActionListener() {
-            @Override
+            @Override                           
             public void actionPerformed(ActionEvent e) {
                 new appli_encashment();
                 frame2.setVisible(false);
@@ -111,6 +113,7 @@ public class UIWindow extends JFrame {
             }
         });
 
+        // This is for setting the size of the window
 
         name_message.setBounds(350, 100, 700, 30);
         el_message.setBounds(370, 280, 700, 30);

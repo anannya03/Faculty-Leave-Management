@@ -2,6 +2,10 @@ import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.Properties;
+
+//Sends mail to all the substitute teachers taking the particular class, in that particular semester that a teacher is gonna be absent. 
+//And if some other teacher wishes to, then, he/she can go ahead and book the class for him/her self
+
 class Mailer3{
     public static void send(String from,String password,String to,String sub,String msg){
         //Get properties object
