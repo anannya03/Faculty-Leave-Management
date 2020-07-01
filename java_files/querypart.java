@@ -9,7 +9,7 @@ public class querypart {
             Connection myConnection = JavaMysqlPreparedStatementInsertExample.getConnection();
             PreparedStatement myPreStatement = myConnection.prepareStatement("INSERT INTO users(Id, Nam, age) VALUES(?, ?, ?)");
             int id=101,age=20;
-            String name="Harika";
+            String name="Anannya";
             myPreStatement.setInt(1, id);
             myPreStatement.setString(2, name);
             myPreStatement.setInt(3, age);
