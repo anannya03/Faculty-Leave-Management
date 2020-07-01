@@ -16,6 +16,7 @@ public class substitute_class {//1
     public static String seventh_sem_from[]= new String[10];
     public static String seventh_sem_to[]= new String[10];
 
+    //finding out the leave_staf_id when the substitute staff_id is given
 
     public substitute_class(String stid) throws SQLException, ClassNotFoundException {//2
         new leave_report_table();
@@ -33,7 +34,7 @@ public class substitute_class {//1
         frame4.setTitle("Substitute List");
         panel4.setBackground(Color.BLACK);
         panel4.setLayout(null);
-        //finding out the leave_staf_id when the substitute staff_id is givenfor(int j=0;j<substitution.sub_staff_id.length;j++)
+        //for(int j=0;j<substitution.sub_staff_id.length;j++)
         int index3=0;
         String []days= {"MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"};
         int x_coord = 150, y_coord = 100, x_yes_button = 400, x_no_button = 500, drop3_x = 150, drop3_y = 200;

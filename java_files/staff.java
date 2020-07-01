@@ -4,6 +4,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+//The business logic layer which gets the data from database to the code using JDBC
+
 public class staff {
     public static String email_ids[] = new String[35];
     public static String passwords[] = new String[35];

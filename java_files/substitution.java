@@ -2,6 +2,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+//Find the list of substitution teacher
+
 public class substitution {
     public static String leave_staff_id[] = new String[35];
     public static String[] sub_staff_id = new String[35];
